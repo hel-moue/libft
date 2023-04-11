@@ -14,8 +14,7 @@ ${NAME}: $(SRC) $(OBJS)
 	cc ${FLAGS} $< -c -o $@
 
 clean:
-	rm -f $(OBJS) | rm -f ${NAME}
-
+	rm -f $(OBJS) 
 fclean: clean
 	rm -f ${NAME}
 
